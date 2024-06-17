@@ -1,6 +1,6 @@
 import React from 'react'
-import netflixx from "./netflixx.jpg";
-import netlogo from "./netlogo.png";
+import netflixx from "../Assets/Images/netflixx.jpg";
+import netlogo from "../Assets/Images/netlogo.png";
 
 export default function Home() {
   return (
