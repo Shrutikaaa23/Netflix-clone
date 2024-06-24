@@ -113,38 +113,42 @@ export default function Home() {
         
 
         <div>
-          <p className="text-center pt-60  font-bold text-7xl">Frequently Asked Questions.</p>
+          <p className="text-center   font-bold text-7xl">Frequently Asked Questions.</p>
         </div>
 
         <div className="bg-black text-white  flex flex-row border-solid border-gray-600 border-8">
           
-          <div>
-          <p>Questions? Contact us.</p>
-          <p>FAQ</p>
-          <p>Investor Relations</p>
-          <p>Privacy</p>
-          <p>Speed Test</p>
+          <div className="pt-28 pl-16 font-sans text-lg">
+          <p className="text-xl pb-5">Questions? Contact us.</p>
+          <p className="pb-5">FAQ</p>
+          <p className="pb-5">Investor Relations</p>
+          <p className="pb-5">Privacy</p>
+          <p className="pb-5">Speed Test</p>
           </div>
 
 
-          <div>
-            <p>Help Center</p>
-            <p>Jobs</p>
-            <p>Cookie Preferences</p>
-            <p>Legal Notices</p>
+          <div className="pt-40 pl-40 font-sans text-lg">
+            <p className="pb-5">Help Center</p>
+            <p className="pb-5">Jobs</p>
+            <p className="pb-5">Cookie Preferences</p>
+            <p className="pb-5">Legal Notices</p>
           </div>
 
 
-          <div>
-            
+          <div className="pt-40 pl-56 font-sans text-lg">
+            <p className="pb-5">Account</p>
+            <p className="pb-5">Ways to Watch</p>
+            <p className="pb-5">Corporate In formation</p>
+            <p className="pb-5">Only on Netflix</p>
           </div>
 
-
-
-
-
-
+          <div className="pt-40 pb-40 pl-56 font-sans text-lg">
+            <p className="pb-5">Media Center</p>
+            <p className="pb-5">Terms of Use</p>
+            <p className="pb-5">Contact Us</p>
           </div>
+
+    </div>
 
     </div>
   );
