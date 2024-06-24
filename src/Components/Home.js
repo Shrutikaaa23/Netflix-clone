@@ -6,6 +6,7 @@ import phonescreen from "../Assets/Images/phonescreen.jpg";
 import load from "../Assets/Images/load.gif";
 import strangerthings from "../Assets/Images/strangerthings.jpg";
 import kids from "../Assets/Images/kids.jpg";
+import { Accordion } from "flowbite-react";
 
 
 export default function Home() {
@@ -114,7 +115,76 @@ export default function Home() {
 
         <div>
           <p className="text-center   font-bold text-7xl">Frequently Asked Questions.</p>
+          
         </div>
+      
+        <Accordion collapseAll className="font-mono font-semibold text-[16px]">
+        <Accordion.Panel>
+          <Accordion.Title className="flex justify-between w-full bg-slate-400"  >What are your services?</Accordion.Title>
+          <Accordion.Content className="ml-4">
+            <ul className="text-sm list-disc">
+              <li className="mb-2 text-gray-500 dark:text-gray-400">
+                Birth Chart Analysis
+              </li>
+              <li className="mb-2 text-gray-500 dark:text-gray-400">
+                Astrological Consultations
+              </li>
+              <li className="mb-2 text-gray-500 dark:text-gray-400">
+                Compatibility Readings
+              </li>
+              <li className="mb-2 text-gray-500 dark:text-gray-400">
+                Predictive Astrology
+              </li>
+              <li className="mb-2 text-gray-500 dark:text-gray-400">
+                Astrological Remedies
+              </li>
+              <li className="mb-2 text-gray-500 dark:text-gray-400">
+                Career Guidance
+              </li>
+              <li className="mb-2 text-gray-500 dark:text-gray-400">
+                Love and Relationship Guidance
+              </li>
+              <li className=" text-gray-500 dark:text-gray-400">
+                Karmic and Spiritual Astrology
+              </li>
+            </ul>
+          </Accordion.Content>
+        </Accordion.Panel>
+
+        <Accordion.Panel>
+          <Accordion.Title className="flex justify-between w-full bg-slate-400"  >What are your services?</Accordion.Title>
+          <Accordion.Content className="ml-4">
+            <ul className="text-sm list-disc">
+              <li className="mb-2 text-gray-500 dark:text-gray-400">
+                Birth Chart Analysis
+              </li>
+              <li className="mb-2 text-gray-500 dark:text-gray-400">
+                Astrological Consultations
+              </li>
+              <li className="mb-2 text-gray-500 dark:text-gray-400">
+                Compatibility Readings
+              </li>
+              <li className="mb-2 text-gray-500 dark:text-gray-400">
+                Predictive Astrology
+              </li>
+              <li className="mb-2 text-gray-500 dark:text-gray-400">
+                Astrological Remedies
+              </li>
+              <li className="mb-2 text-gray-500 dark:text-gray-400">
+                Career Guidance
+              </li>
+              <li className="mb-2 text-gray-500 dark:text-gray-400">
+                Love and Relationship Guidance
+              </li>
+              <li className=" text-gray-500 dark:text-gray-400">
+                Karmic and Spiritual Astrology
+              </li>
+            </ul>
+          </Accordion.Content>
+        </Accordion.Panel>
+        
+        </Accordion>
+        
 
         <div className="bg-black text-white  flex flex-row border-solid border-gray-600 border-8">
           
